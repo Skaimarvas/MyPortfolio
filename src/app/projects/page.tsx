@@ -7,60 +7,26 @@ const projectsPage = () => {
   // PROJECTS DATA
   const Projects = [
     {
-      title: "FriendZ - A social media Platform",
+      title: "Friendyol - An ecommerce website",
       description:
-        "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
-      tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
-      link: "https://github.com/taqui-786/project-friendz",
+        "The e-commerce project is a user-friendly platform developed with modern technologies. It offers an intuitive interface, a secure payment system, and flexible management tools, providing an excellent shopping experience for users.",
+      tags: ["Reactjs", "Spring Boot", "Javascript", "Tailwind CSS"],
+      link: "https://github.com/Skaimarvas/ecommerce-project",
     },
     {
-      title: "itZmyLink- One Page many Links",
+      title: "Lezizpizza - A food order website",
       description:
-        "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/itZmyLink",
+        "In this project, I developed a user-friendly and functional food ordering website that allows users to order from a variety of pizza options.",
+      tags: ["Reactjs", "HTML", "Tailwind CSS", "Javascript"],
+      link: "lezizpizza.vercel.app",
     },
+
     {
-      title: "GitEstimate- Github estimate worth generator",
+      title: "Personal Blog/Portfolio - A blog/portfolio",
       description:
-        "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/GitEstimate",
-    },
-    {
-      title: "Rupeespot- All deals Product in one place",
-      description:
-        "This is a free tool to check price history charts for millions of products for popular Indian stores such as Amazon and Flipkart. ",
-      tags: ["Nextjs", "Freelancing", "MySQL"],
-      link: "https://rupeespot.com/",
-    },
-    {
-      title: "KryptoKapital- Investing in Cryptocurreny",
-      description:
-        "This is a platform for learning about cryptocurrency with many tools and festures. It is very big project. ",
-      tags: ["Nextjs", "Freelancing", "Supabase"],
-      link: "https://devkryptokapital.netlify.app/",
-    },
-    {
-      title: "ChatApp- Simple instagram clone",
-      description:
-        "ChatApp is similar to instagram, you can create, edit, delete, like,comment, post and  Follow, unfollow users",
-      tags: ["Reactjs", "Javascript"],
-      link: "https://github.com/taqui-786/chatapp-api",
-    },
-    {
-      title: "Devletter - A Newsletter for devs",
-      description:
-        "Devletter ia a newsletter subscribing single page app made with Nextjs and Tailwindcss.",
-      tags: ["Nextjs", "Tailwindcss"],
-      link: "https://github.com/taqui-786/Devletter",
-    },
-    {
-      title: "CrouMaker - A Crousal Maker App",
-      description:
-        "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
-      tags: ["Nextjs", "jsPDF", "html2canvas", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/crousal-maker",
+        "I created a personal blog using React, designed as a flexible and user-friendly template for anyone to use. Hosted on Vercel, this project demonstrates my ability to build responsive and customizable web applications, making it easy for users to adapt and personalize it for their own blogging needs.",
+      tags: ["Reactjs", "HTML", "Tailwind CSS", "Javascript"],
+      link: "https://github.com/Skaimarvas/mypersonalblog",
     },
   ];
 
@@ -75,11 +41,14 @@ const projectsPage = () => {
         <Heading>My Projects</Heading>
 
         <p className=" font-poppins text-lg w-full text-primary max-sm:text-base">
-          I love to Build Cool Projects. Here, you&#x27;ll find a curated
-          collection of my creative endeavors and technical projects. Each piece
-          represents a journey of innovation, problem-solving, and continuous
-          learning. Feel free to explore this showcase of my passion and
-          expertise in action.
+          I am passionate about crafting innovative and balanced solutions.
+          Here, you’ll discover a blend of my frontend and backend projects,
+          each reflecting my dedication to full stack development. From dynamic
+          interfaces in React and Next.js to robust backend systems using Java,
+          Spring Boot, and Express.js, my portfolio showcases my journey of
+          continuous learning and problem-solving. Explore this collection to
+          see how I integrate creativity with technical prowess to bring ideas
+          to life.
         </p>
       </div>
 
