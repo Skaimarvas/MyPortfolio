@@ -4,11 +4,13 @@ import { Badge } from "@/components/ui/badge";
 import { Circle, Heart, User2 } from "lucide-react";
 const page = () => {
   const items = [
-    { hobby: "coding" },
-    { hobby: "playing games" },
-    { hobby: "Watching Anima" },
-    { hobby: "Tect Blog writing" },
-    { hobby: "creating Cool Projects" },
+    { hobby: "Software Development" },
+    { hobby: "Interface Design using Figma" },
+    { hobby: "Acquiring proficiency in new programming languages" },
+    { hobby: "Engaging in video games" },
+    { hobby: "Illustration and sketching" },
+    { hobby: "Technology-focused blog authoring" },
+    { hobby: "Developing innovative projects" },
   ];
 
   return (
@@ -20,16 +22,16 @@ const page = () => {
       </Badge>
       <div className="flex flex-col gap-3">
         <Heading>
-          Software Engineer And Web <br /> Developer, Based In India.
+          Software Engineer And Web <br /> Developer, Based In Turkey.
         </Heading>
 
         <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg">
-          I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand, India.
-          I love crafting cool web projects and also open-source contribuitions.
-          My biggest achievement lies in my mastery of JavaScript and CSS,
-          ensuring pixel-perfect designs that captivate users. With a keen eye
-          for detail and a commitment to delivery speed, I excel at creating
-          seamless and responsive interfaces that leave a lasting impression.
+          I am an aspiring full-stack developer driven to acquire new skills and
+          thrive through challenging opportunities. I have actively cultivated
+          my skills in the field and undertaken numerous projects
+          professionally. My current focus is on enhancing proficiency in
+          front-end and back-end development, while deepening my understanding
+          of computer science.
         </p>
       </div>
       <div className="w-full flex flex-row justify-between max-lg:flex-col ">
