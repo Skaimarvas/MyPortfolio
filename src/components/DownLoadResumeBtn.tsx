@@ -1,20 +1,23 @@
-import { cn } from '@/lib/utils'
-import { Download } from 'lucide-react'
-import Link from 'next/link'
-import React from 'react'
-import { buttonVariants } from './ui/button'
-import HackerBtn from './HackerBtn'
+"use client";
+import HackerBtn from "./HackerBtn";
 
 function DownLoadResumeBtn() {
+  const resumeUrl = "/resume.pdf";
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.download = "Kaim_Arvas_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="h-fit w-full mt-2 py-2 px-4">
-    {/* <Link href="/" className={cn(buttonVariants({ variant: "default", size:"lg"}))}>
-      <Download className="mx-1" />
-      Download Resume
-    </Link> */}
-    <HackerBtn label='Download Resume' />
-  </div>
-  )
+      <HackerBtn label="Download Resume" onClick={handleDownload} />
+    </div>
+  );
 }
 
-export default DownLoadResumeBtn
+export default DownLoadResumeBtn;
