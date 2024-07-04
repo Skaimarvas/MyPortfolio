@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import {  Poppins, Rubik } from "next/font/google";
+import { Poppins, Rubik } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
@@ -16,7 +16,7 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mdTaquiImam.vercel.app"),
+  metadataBase: new URL("https://kaimarvas.vercel.app"),
   title: {
     default: siteConfig.name,
     template: `%s - Software Engineer`,
@@ -25,22 +25,16 @@ export const metadata: Metadata = {
 
   // added new keywords for seo
   keywords: [
-    "md",
-    "taqui",
-    "imam",
-    "Md",
-    "MD",
-    "TAQUI",
-    "Taqui",
-    "Imam",
-    "Imam",
-    "Md Taqui Imam",
-    "md taqui imam",
-    "mdtaqui",
-    "mdtaquiimam",
-    "taqui imam",
-    "Taqui Imam",
-    "Taquiimam",
+    "Kaim",
+    "Arvas",
+    "Senior",
+    "Mid",
+    "Junior",
+    "Software",
+    "Programming",
+    "Jobs",
+    "Resume",
+    "Cv",
     "portfolio",
     "web developer",
     "web",
@@ -48,19 +42,15 @@ export const metadata: Metadata = {
     "developer",
     "PROGRAMMER ",
     "programmer ",
-    "MD TAQUI IMAM ",
     "website",
-    "@Taquiimam",
-    "Taquiimam",
-    "taqui developer",
   ],
   authors: [
     {
-      name: "Taqui Imam",
-      url: "https://github.com/taqui-786",
+      name: "Kaim Arvas",
+      url: "https://github.com/Skaimarvas",
     },
   ],
-  creator: "Taqui imam",
+  creator: "Kaim Arvas",
 
   openGraph: {
     type: "website",
